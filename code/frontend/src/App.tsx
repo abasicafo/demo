@@ -1,3 +1,6 @@
+// frontend/src/App.tsx
+// This file is the main entry point of the React application. It sets up routing using React Router, integrates Clerk for authentication, and applies Material-UI theming. The application includes routes for viewing all blogs, creating a new blog, viewing a single blog, and completing user signup. It also handles signed-in and signed-out states for creating blogs.
+
 import { BrowserRouter as Router, Routes, Route, Navigate } from "react-router-dom";
 import AllBlogs from "./pages/AllBlogs";
 import SingleBlog from "./pages/SingleBlog";

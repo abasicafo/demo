@@ -1,3 +1,6 @@
+// frontend/src/pages/CompleteSignup.tsx
+// This page allows users to complete their profile after signing in with Clerk. It collects first and last names and submits them to the backend API. If the user is not signed in, it prompts them to sign in using Clerk's SignInButton component.
+
 import React, { useState } from "react";
 import {
   Container,

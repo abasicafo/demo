@@ -1,3 +1,6 @@
+// frontend/src/pages/SingleBlog.tsx
+// This page displays a single blog post along with its comments. It includes a header, the blog content, and a comment section where users can add comments. The page handles loading states, errors, and user authentication using Clerk.
+
 import React, { useState } from "react";
 import { useParams, useNavigate } from "react-router-dom";
 import {

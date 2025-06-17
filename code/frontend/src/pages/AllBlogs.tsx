@@ -1,3 +1,6 @@
+//src/pages/AllBlogs.tsx
+// This page displays all blogs with a header and a button to create a new blog. It fetches blog data using a custom hook and displays each blog in a card format with a blurred text effect for the image placeholder. The page is styled using Material-UI components.
+
 import React from "react";
 import { Link } from "react-router-dom";
 import {

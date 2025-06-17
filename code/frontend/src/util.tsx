@@ -1,3 +1,7 @@
+// frontend/src/util.tsx
+// This file contains utility functions for the frontend application, such as opening a preview window for Markdown content. It uses the `marked` library to convert Markdown to HTML and creates a new browser window to display the content.
+
+
 import {marked} from "marked";
 export async function openPreview(content:string) {
   const htmlContent = await marked(content);

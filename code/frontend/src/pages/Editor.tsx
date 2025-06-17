@@ -1,3 +1,6 @@
+//frontend/src/pages/Editor.tsx
+//This is a simple text editor component that allows users to write and format text using markdown syntax. It includes buttons for inserting headers, bold, italic, and lists. The editor uses a textarea for input and provides basic styling and functionality.
+
 import React from "react";
 import { Button, ButtonGroup, Paper, TextareaAutosize } from "@mui/material";
 

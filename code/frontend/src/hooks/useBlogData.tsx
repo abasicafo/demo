@@ -1,3 +1,6 @@
+// frontend/src/hooks/useBlogData.tsx
+// This file contains custom hooks for fetching blog data, comments, and user information from the backend API. It uses Axios for HTTP requests and Clerk for authentication. The hooks manage loading states and errors, providing a clean interface for components to use.
+
 import { useEffect, useState } from "react";
 import axios from "axios";
 import { useAuth } from "@clerk/clerk-react";

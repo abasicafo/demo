@@ -1,3 +1,11 @@
+// backend1/src/index.ts
+// This file is the entry point for the Express application, setting up middleware, routes, and starting the server.
+// It imports necessary modules, configures middleware for JSON parsing and CORS, sets up Clerk for authentication,
+// and defines the main application routes. It also includes error handling middleware for managing
+// not found routes and general errors. Finally, it starts the server on a specified port,
+// logging the server's status to the console.
+// File: backend1/src/index.ts
+// This file is the entry point for the Express application, setting up middleware, routes, and
 import cors from 'cors';
 import dotenv from 'dotenv';
 import express, { Application } from 'express';

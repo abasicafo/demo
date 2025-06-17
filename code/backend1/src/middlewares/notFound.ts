@@ -1,3 +1,8 @@
+// File: backend1/src/middlewares/notFound.ts
+// This file contains middleware for handling requests to routes that do not exist in an Express application.
+// It exports a function that takes a request, response, and next function as parameters
+// and sends a 404 status code with an error message indicating that the route was not found
+// backend1/src/middlewares/notFound.ts
 import { NextFunction, Request, Response } from 'express';
 
 /**

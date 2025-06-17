@@ -1,3 +1,6 @@
+// backend1/src/services/userService.ts
+// This file contains the user service logic for handling user-related operations such as fetching and creating users.
+// It interacts with the UserModel to perform database operations and returns structured responses.
 import { User } from '../domain/User';
 import UserModel from '../models/UserModel';
 

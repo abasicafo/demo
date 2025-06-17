@@ -1,3 +1,6 @@
+// backend1/src/db/knexfile.ts
+// This file contains the Knex configuration for connecting to the database.
+// It exports a configuration object that can be used by Knex to establish a connection.      
 import dotenv from "dotenv";
 import type { Knex } from "knex";
 import path from "path";

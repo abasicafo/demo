@@ -1,3 +1,6 @@
+// frontend/src/pages/CreateBlog.tsx
+// This file is part of the FellowBlog project. It is a React component that allows users to create a new blog post. The component checks if the user exists in the backend, prompts for profile completion if not, and provides a rich text editor for writing blog content. It also includes a preview feature for the blog content using Markdown syntax.
+
 import React, { useState, useEffect } from "react";
 import { useAuth, useUser } from "@clerk/clerk-react";
 import { useNavigate } from "react-router-dom";

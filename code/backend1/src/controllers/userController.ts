@@ -1,3 +1,15 @@
+// backend1/src/controllers/userController.ts
+// This file contains the user-related controller functions for handling requests to the user API.
+// It includes functions to get a user by their Clerk user ID and to add a new user
+// using the Clerk user ID from the session. The functions interact with the user service to perform
+// the necessary operations and handle errors appropriately.
+// and setComments(res.data)
+//       .catch((err) => setError(err.response?.data?.error || err.message))
+//       .finally(() => setLoading(false));
+//   }, [id]);
+// 
+//   return { comments, loading, error };
+// }    
 import { NextFunction, Request, Response } from "express";
 import * as userService from "../services/userService";
 

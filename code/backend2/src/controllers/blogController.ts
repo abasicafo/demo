@@ -1,3 +1,9 @@
+// backend2/src/controllers/blogController.ts
+// This file contains the controller functions for handling blog-related requests in the Express application.
+// It imports the necessary modules, including the blog service for business logic and the Express Request and Response types.
+// The controller functions include creating a new blog post, retrieving all blog posts, and fetching a specific blog post by its ID.
+// Each function handles the request and response, performing validation and error handling as needed.
+// The controller functions are designed to be used with Express routes, allowing for modular and organized handling of blog-related operations in the application.
 import { Request, Response } from "express";
 import * as blogService from "../services/BlogService";
 
